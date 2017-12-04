@@ -17,6 +17,7 @@ public class SET_PASSWORD {
 	Tracko.findElementByXPath("//input[@id='password']").sendKeys(password);
     Tracko.findElementByXPath("//input[@id='repassword']").sendKeys(password);
     Tracko.findElementByXPath("//button[@id='sub_btn_setpass']").click();
+    
     Thread.sleep(8000);
 	}
 

@@ -8,7 +8,7 @@ public class Utility_Package {
 	{
 
 		Random rand = new Random();
-		int n=rand.nextInt(50)+1;
+		int n=rand.nextInt(54)+1;
 		return n;
 	}
 
